@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feedback Form</title>
+    <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-Dj5nhh9K.css">
+  </head>
+  <body>
+    <a href="index.html" class="back-home">← Back home</a>
+    <div class="form">
+      <form class="feedback-form" autocomplete="off">
+        <div class="feedback">
+          <label class="name-label">
+            Email
+            <input
+              class="input"
+              type="email"
+              name="email"
+              autofocus
+              placeholder=""
+              onfocus="this.placeholder='Type area'"
+              onblur="this.placeholder=''"
+            />
+          </label>
+          <label class="name-label">
+            Message
+            <textarea class="textarea" name="message" rows="8"></textarea>
+          </label>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+
+  </body>
+</html>
